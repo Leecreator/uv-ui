@@ -98,7 +98,7 @@
 				for (let i = 0; i < this.rows; i++) {
 					let item = {},
 						// 需要预防超出数组边界的情况
-						rowWidth = this.$uv.test.array(this.rowsWidth) ? (this.rowsWidth[i] || (i === this.row - 1 ? '70%' : '100%')) : i ===
+						rowWidth = this.$uv.test.array(this.rowsWidth) ? (this.rowsWidth[i] || (i === this.rows - 1 ? '70%' : '100%')) : i ===
 						this.rows - 1 ? '70%' : this.rowsWidth,
 						rowHeight = this.$uv.test.array(this.rowsHeight) ? (this.rowsHeight[i] || '18px') : this.rowsHeight,
 						rowLeft = this.$uv.test.array(this.rowsLeft) ? (this.rowsLeft[i] || 0) : this.rowsLeft;
