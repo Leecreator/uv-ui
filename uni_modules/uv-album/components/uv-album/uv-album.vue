@@ -268,7 +268,7 @@
 				// 延时一定时间，以获取dom尺寸
 				await this.$uv.sleep(30)
 				// #ifndef APP-NVUE
-				this.$uGetRect('.uv-album__row').then((size) => {
+				this.$uvGetRect('.uv-album__row').then((size) => {
 					this.singleWidth = size.width * this.singlePercent
 				})
 				// #endif
