@@ -388,8 +388,8 @@
 	}
 </script>
 <style scoped lang="scss">
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/color.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/theme.scss' as *;
 	.uv-vtabs {
 		@include flex;
 		&__bar {

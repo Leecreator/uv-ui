@@ -22,10 +22,10 @@
 
 <style lang="scss">
 	/* #ifndef APP-NVUE */
-	@import "@/static/iconfont.css";
+	@use "@/static/iconfont.css";
 	/* #endif */
-	@import '@/uni_modules/uv-ui-tools/index.scss';
-	@import "@/common/demo.scss";
+	@use '@/uni_modules/uv-ui-tools/index.scss';
+	@use "@/common/demo.scss";
 	/*每个页面公共css */
 	.uv-page {
 		padding: 15px 15px 40px;

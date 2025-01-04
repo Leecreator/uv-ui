@@ -178,9 +178,9 @@
 	$show-border: 1;
 	$show-border-right: 1;
 	$show-border-bottom: 1;
-	@import '@/uni_modules/uv-ui-tools/libs/css/variable.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/color.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/variable.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/theme.scss' as *;
 	$uv-grid-item-hover-class-opcatiy:.5 !default;
 	$uv-grid-item-margin-top:1rpx !default;
 	$uv-grid-item-border-right-width:0.5px !default;

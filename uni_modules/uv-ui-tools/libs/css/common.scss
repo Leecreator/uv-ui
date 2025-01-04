@@ -1,3 +1,4 @@
+@use "sass:meta";
 // 超出行数，自动显示行尾省略号，最多5行
 // 来自uvui的温馨提示：当您在控制台看到此报错，说明需要在App.vue的style标签加上【lang="scss"】
 @for $i from 1 through 5 {
@@ -28,7 +29,7 @@
 	}
 }
 $uv-bordercolor: #dadbde;
-@if variable-exists(uv-border-color) {
+@if meta.variable-exists(uv-border-color) {
 	$uv-bordercolor: $uv-border-color;
 }
 

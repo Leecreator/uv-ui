@@ -393,8 +393,8 @@
 </script>
 <style scoped lang="scss">
 	$show-border: 1;
-	@import '@/uni_modules/uv-ui-tools/libs/css/variable.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/variable.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
 	$height: 400rpx;
 	/* #ifndef APP-NVUE */
 	.uv-pick-color {

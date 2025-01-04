@@ -253,9 +253,9 @@
 <style lang="scss" scoped>
 	$show-border: 1;
 	$show-border-bottom: 1;
-	@import '@/uni_modules/uv-ui-tools/libs/css/variable.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/color.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/variable.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/theme.scss' as *;
 	$uv-radio-label-wrap-padding-right: 6px !default;
 	$uv-radio-wrap-font-size: 20px !default;
 	$uv-radio-wrap-border-width: 1px !default;

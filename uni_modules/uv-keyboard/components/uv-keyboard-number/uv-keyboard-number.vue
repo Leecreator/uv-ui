@@ -134,9 +134,9 @@
 
 <style lang="scss" scoped>
 	$show-hover: 1;
-	@import '@/uni_modules/uv-ui-tools/libs/css/variable.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/color.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/variable.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/theme.scss' as *;
 	$uv-number-keyboard-background-color:rgb(224, 228, 230) !default;
 	$uv-number-keyboard-padding:8px 10rpx 8px 10rpx !default;
 	$uv-number-keyboard-button-width:222rpx !default;

@@ -117,8 +117,7 @@
 		"platforms": {
 			"cloud": {
 				"tcb": "y",
-                "aliyun": "y",
-                "alipay": "n"
+				"aliyun": "y"
 			},
 			"client": {
 				"Vue": {

@@ -237,9 +237,9 @@
 
 <style lang="scss" scoped>
 	$show-hover: 1;
-	@import '@/uni_modules/uv-ui-tools/libs/css/variable.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/color.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/variable.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/theme.scss' as *;
 	$uv-car-keyboard-background-color: rgb(224, 228, 230) !default;
 	$uv-car-keyboard-padding:6px 0 6px !default;
 	$uv-car-keyboard-button-inner-width:64rpx !default;
