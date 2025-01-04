@@ -200,9 +200,9 @@
 	$show-border: 1;
 	$show-border-surround: 1;
 	$show-border-bottom: 1;
-	@import '@/uni_modules/uv-ui-tools/libs/css/variable.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/color.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/variable.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/theme.scss' as *;
 	.uv-textarea {
 		border-radius: 4px;
 		background-color: #fff;

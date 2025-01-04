@@ -125,7 +125,7 @@
 	}
 </script>
 <style scoped lang="scss">
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
 	.uv-drop-down {
 		@include flex;
 		justify-content: space-between;

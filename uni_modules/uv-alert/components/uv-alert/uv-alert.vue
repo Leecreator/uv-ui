@@ -130,8 +130,8 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/color.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/theme.scss' as *;
 	.uv-alert {
 		position: relative;
 		background-color: $uv-primary;

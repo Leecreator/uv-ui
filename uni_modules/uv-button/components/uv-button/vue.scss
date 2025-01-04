@@ -1,4 +1,4 @@
-@import '@/uni_modules/uv-ui-tools/libs/css/color.scss';
+@use '@/uni_modules/uv-ui-tools/theme.scss' as *;
 // nvue下hover-class无效
 $uv-button-before-top:50% !default;
 $uv-button-before-left:50% !default;

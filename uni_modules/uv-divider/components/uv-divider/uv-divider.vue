@@ -90,7 +90,7 @@
 	}
 </script>
 <style lang="scss" scoped>
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
 	$uv-divider-margin: 15px 0 !default;
 	$uv-divider-text-margin: 0 15px !default;
 	$uv-divider-dot-font-size: 12px !default;

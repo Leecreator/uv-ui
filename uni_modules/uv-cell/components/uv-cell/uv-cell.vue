@@ -99,8 +99,8 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/color.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/theme.scss' as *;
 	$uv-cell-padding: 10px 15px !default;
 	$uv-cell-font-size: 15px !default;
 	$uv-cell-line-height: 24px !default;

@@ -74,8 +74,8 @@
 	$show-hover: 1;
 	$show-border: 1;
 	$show-border-bottom: 1;
-	@import '@/uni_modules/uv-ui-tools/libs/css/variable.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/variable.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
 	$uv-tips-color: #909193 !default;
 	$uv-main-color: #303133 !default;
 	$uv-primary: #3c9cff !default;

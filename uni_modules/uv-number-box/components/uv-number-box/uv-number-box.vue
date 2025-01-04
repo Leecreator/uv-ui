@@ -331,8 +331,8 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/color.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/theme.scss' as *;
 	$uv-numberBox-hover-bgColor: #E6E6E6 !default;
 	$uv-numberBox-disabled-color: #c8c9cc !default;
 	$uv-numberBox-disabled-bgColor: #f7f8fa !default;

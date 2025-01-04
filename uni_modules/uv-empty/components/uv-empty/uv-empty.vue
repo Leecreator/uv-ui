@@ -102,7 +102,7 @@
 	}
 </script>
 <style lang="scss" scoped>
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
 	$uv-empty-text-margin-top: 20rpx !default;
 	$uv-empty-slot-margin-top: 20rpx !default;
 	.uv-empty {

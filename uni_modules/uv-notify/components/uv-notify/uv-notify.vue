@@ -176,8 +176,8 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/color.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/theme.scss' as *;
 	$uv-notify-padding: 8px 10px !default;
 	$uv-notify-text-font-size: 15px !default;
 	$uv-notify-primary-bgColor: $uv-primary !default;

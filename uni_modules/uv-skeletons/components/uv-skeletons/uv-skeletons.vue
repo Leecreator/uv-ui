@@ -176,7 +176,7 @@
 	}
 </script>
 <style scoped lang="scss">
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
 	@mixin background {
 		/* #ifdef APP-NVUE */
 		background-color: #e6e6e6;

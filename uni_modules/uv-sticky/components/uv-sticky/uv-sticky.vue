@@ -213,7 +213,7 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
 	.uv-sticky {
 		/* #ifdef APP-VUE || MP-WEIXIN */
 		// 此处默认写sticky属性，是为了给微信和APP通过uni.createSelectorQuery查询是否支持css sticky使用

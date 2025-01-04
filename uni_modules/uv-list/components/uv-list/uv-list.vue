@@ -96,8 +96,8 @@
 	};
 </script>
 <style lang="scss" scoped>
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/color.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/theme.scss' as color;
 	
 	.uv-list {
 		position: relative;
@@ -108,10 +108,10 @@
 	.uv-list--border {
 		position: relative;
 		/* #ifdef APP-NVUE */
-		border-top-color: $uv-border-color;
+		border-top-color: color.$uv-border-color;
 		border-top-style: solid;
 		border-top-width: 0.5px;
-		border-bottom-color: $uv-border-color;
+		border-bottom-color: color.$uv-border-color;
 		border-bottom-style: solid;
 		border-bottom-width: 0.5px;
 		/* #endif */

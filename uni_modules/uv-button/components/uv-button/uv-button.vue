@@ -327,16 +327,16 @@ export default {
 
 <style lang="scss" scoped>
 $show-reset-button: 1;
-@import '@/uni_modules/uv-ui-tools/libs/css/variable.scss';
-@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
-@import '@/uni_modules/uv-ui-tools/libs/css/color.scss';
+@use '@/uni_modules/uv-ui-tools/libs/css/variable.scss' as *;
+@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
+@use '@/uni_modules/uv-ui-tools/theme.scss' as *;
 
 /* #ifndef APP-NVUE */
-@import "./vue.scss";
+@use"./vue.scss";
 /* #endif */
 
 /* #ifdef APP-NVUE */
-@import "./nvue.scss";
+@use"./nvue.scss";
 /* #endif */
 
 $uv-button-uv-button-height: 40px !default;

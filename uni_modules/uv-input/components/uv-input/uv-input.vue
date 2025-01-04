@@ -289,9 +289,9 @@
 	$show-border: 1;
 	$show-border-surround: 1;
 	$show-border-bottom: 1;
-	@import '@/uni_modules/uv-ui-tools/libs/css/variable.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/color.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/variable.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/theme.scss' as color;
 	.uv-input {
 		@include flex(row);
 		align-items: center;
@@ -320,7 +320,7 @@
 				&__field {
 					line-height: 26px;
 					text-align: left;
-					color: $uv-main-color;
+					color: color.$uv-main-color;
 					height: 24px;
 					font-size: 15px;
 					flex: 1;

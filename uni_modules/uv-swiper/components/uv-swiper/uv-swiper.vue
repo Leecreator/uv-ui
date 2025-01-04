@@ -209,8 +209,8 @@
 
 <style lang="scss" scoped>
 	$show-lines: 1;
-	@import '@/uni_modules/uv-ui-tools/libs/css/variable.scss';
-	@import '@/uni_modules/uv-ui-tools/libs/css/components.scss';
+	@use '@/uni_modules/uv-ui-tools/libs/css/variable.scss' as *;
+	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
 	.uv-swiper {
 		@include flex;
 		justify-content: center;
