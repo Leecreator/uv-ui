@@ -291,7 +291,7 @@
 	$show-border-bottom: 1;
 	@use '@/uni_modules/uv-ui-tools/libs/css/variable.scss' as *;
 	@use '@/uni_modules/uv-ui-tools/libs/css/components.scss' as *;
-	@use '@/uni_modules/uv-ui-tools/theme.scss' as color;
+	@use '@/uni_modules/uv-ui-tools/theme.scss' as *;
 	.uv-input {
 		@include flex(row);
 		align-items: center;
@@ -320,7 +320,7 @@
 				&__field {
 					line-height: 26px;
 					text-align: left;
-					color: color.$uv-main-color;
+					color: $uv-main-color;
 					height: 24px;
 					font-size: 15px;
 					flex: 1;
